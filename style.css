@@ -2,52 +2,52 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 2s;
 }
 .ex-1-square:hover {
     background-color: red;
-    transition: all 4s;
 }
 
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 10s;
+
 }
 .ex-2-square:active {
   width: 100%;
-  transition: 10s;
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 3s;
 }
 .ex-3-square:hover {
   border-radius: 50%;
-  transition: all 3s;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 3s;
 }
 .ex-4-square:hover {
   opacity: 0;
-  transition: all 2s;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
 }
 .ex-5-square:hover {
   transform: scale(2);
-  transition: all 1s;
 }
 .ex-5-square:active {
   transform: scale(0.5);
-  transition: all 1s;
 }
 
 .ex-6-img, .ex-7-img, .ex-8-img {
@@ -56,26 +56,30 @@
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+.ex-7-img {
+  transition: all 2s;
+}
 .ex-7-img:hover {
   filter: sepia(1);
-  transition: all 1s;
+}
+.ex-8-img {
+  transition: 2s;
 }
 .ex-8-img:hover {
   border-radius: 20px;
   filter: contrast(2) grayscale(0.4) ;
-  transition: all 1s;
 }
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
 .ex-9-img:hover {
   border-radius: 20px;
   filter: contrast(2) grayscale(0.4) ;
   transform: scale(1.5);
-  transition: all 1s;
 }
 .ex-10-icon {
     font-size: 60px;
@@ -132,7 +136,7 @@
     height: 20px;
 }
 .ex-12-button:hover .ex-12-bottom-white {
-  animation: bottone_b 1s steps(4, end);
+  animation: bottone_b 1s ;
 }
 @keyframes bottone_b {
   50% {right:70%}
