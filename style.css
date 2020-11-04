@@ -96,7 +96,7 @@
 }
 @keyframes rotazione2 {
   0% { transform: rotate(0);}
-  80% {transform: rotate(260deg);}
+  80% {transform: rotate(270deg);}
   20% {transform: rotate(0);}
 }
 .ex-12-button, .ex-13-button {
